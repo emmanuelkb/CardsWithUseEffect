@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 350px;
+  height: auto;
+  margin: 40px;
+  transition: 0.5s ease-in-out;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: #5f4b8b;
+  color: white;
+}
+
+.tophalf {
+  background-color: #e69a8d;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card .yellow {
+  background-color: #5f4b8b;
+  width: 70%;
+  height: 20px;
+}
+
+.card .bottomdots {
+  background: radial-gradient(white 20%, transparent 19%),
+    radial-gradient(white 20%, transparent 19%), transparent;
+  height: 20px;
+  background-size: 6px 6px;
+  background-position: 0 0, 3px 3px;
+  z-index: 2;
+}
+
+.card .pink {
+  display: flex;
+  float: right;
+  background-color: #e69a8d;
+  width: 50%;
+  height: 10px;
+}
+
+.name {
+  text-align: center;
+  font-size: 20px;
+}
